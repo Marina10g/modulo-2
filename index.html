@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Ricerca lavori</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Ricerca Lavori</h1>
+        <!-- Input per il titolo del lavoro -->
+        <input type="text" id="titleInput" placeholder="Inserisci il titolo">
+        <!-- Input per la località del lavoro -->
+        <input type="text" id="locationInput" placeholder="Inserisci la località">
+        <!-- Bottone per eseguire la ricerca -->
+        <button onclick="searchJobs()">Cerca</button>
+        <!-- Bottone per resettare i campi di input e i risultati -->
+        <button onclick="resetSearch()">Resetta</button>
+
+        <!-- Lista per i risultati della ricerca -->
+        <ul id="results"></ul>
+    </div>
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>
